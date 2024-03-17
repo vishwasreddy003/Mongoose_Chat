@@ -1,0 +1,59 @@
+/* Style for main container */
+.main {
+  max-width: 1000px; /* Adjust width as needed */
+  margin: 0 auto;
+  padding: 20px;
+  border: 2px solid #4be4ca;
+  border-radius: 5px;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+}
+
+h3 {
+  color: rgb(231, 102, 138);
+}
+
+/* Style for chat container */
+.chats {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* To allow chats to take up remaining space */
+}
+
+.chat {
+  background-color: aquamarine;
+  border: 1px solid #eb4d4d;
+  border-radius: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* Style for message container inside chat */
+.msg {
+  background-color: #bdea53;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+/* Style for button form */
+.main form {
+  margin-left: auto; /* Pushes the form to the end */
+}
+
+/* Style for button */
+.main form button {
+  background-color: #ea6fc7;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.main form button:hover {
+  background-color: #eea6a6;
+}
